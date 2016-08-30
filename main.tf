@@ -41,7 +41,7 @@ resource "aws_instance" "web" {
     Name = "Test michel"
     test = "true"
   }
-  count = 2
+  count = 1
 }
 
 output "public_ip" {
