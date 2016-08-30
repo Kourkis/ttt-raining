@@ -39,7 +39,7 @@ resource "aws_instance" "web" {
   tags {
     Identity = "ttt-c81e728d9d4c2f636f067f89cc14862c"
     Name = "Test michel"
-    test = "true"
+    test = "false"
   }
   count = 1
 }
